@@ -1,8 +1,11 @@
 cff-version: 1.2.0
-message: "Please cite the accompanying manuscript; verify repository authorship and use the version DOI once assigned."
+message: "Please cite this software release with its Zenodo DOI; cite the manuscript separately when using its scientific results."
 type: software
 title: "Public computational demonstrations for endogenous end-of-period reservoir storage"
 version: 0.1.0
+date-released: 2026-10-24
+doi: 10.5281/zenodo.23614749
+repository-code: https://github.com/FAN2943637815/endogenous-reservoir-storage-demo
 authors:
   - given-names: Shuncai
     family-names: Zhang
@@ -22,25 +25,3 @@ authors:
     family-names: Li
   - given-names: Siyu
     family-names: Pu
-preferred-citation:
-  type: article
-  title: "Endogenous end-of-period storage decisions for 10-day reservoir drought operation under forecast uncertainty"
-  authors:
-    - given-names: Shuncai
-      family-names: Zhang
-    - given-names: Wei
-      family-names: Xu
-    - given-names: Guoguo
-      family-names: Lin
-    - given-names: Xiaoqin
-      family-names: Hu
-    - given-names: Haonan
-      family-names: Zhao
-    - given-names: Lanlan
-      family-names: Zhao
-    - given-names: Sheng
-      family-names: Yang
-    - given-names: Zhengxuan
-      family-names: Li
-    - given-names: Siyu
-      family-names: Pu

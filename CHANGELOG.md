@@ -9,7 +9,9 @@
 - Included a limited, study-derived 36-point numerical aggregate for Fig. 3(e), with a scope note; other figure data remain withheld.
 - The reviewed 55-file tree was published at
   <https://github.com/FAN2943637815/endogenous-reservoir-storage-demo>.
-- No GitHub release, Zenodo archive, or DOI has yet been verified.
+- GitHub release `v0.1.0` was archived by Zenodo as
+  [10.5281/zenodo.23614749](https://doi.org/10.5281/zenodo.23614749).
 
-Software authorship and a reuse license remain unconfirmed. Public availability
-alone does not grant permission to reuse the code or add withheld research data.
+The nine software authors and their order were confirmed by the repository
+owner. No reuse license has been granted. Public availability alone does not
+grant permission to reuse the code or add withheld research data.

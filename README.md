@@ -116,10 +116,14 @@ says restricted historical data and derived supporting data may be requested
 from the corresponding author. This public deposit does not claim full G8
 compliance; see [reproducibility status](docs/reproducibility.md).
 
-`CITATION.cff` records the manuscript title and author names from the current
-manuscript. Repository software authorship requires confirmation. No paper
-DOI, repository DOI, GitHub release or Zenodo archive is asserted. The public
-repository is <https://github.com/FAN2943637815/endogenous-reservoir-storage-demo>.
+The nine repository software authors and their order were confirmed by the
+repository owner. Cite the archived public demonstration as version 0.1.0,
+DOI [10.5281/zenodo.23614749](https://doi.org/10.5281/zenodo.23614749).
+The [GitHub release](https://github.com/FAN2943637815/endogenous-reservoir-storage-demo/releases/tag/v0.1.0)
+is the source of that immutable archive. `CITATION.cff` identifies the software
+release; the manuscript should be cited separately for its scientific claims.
+The DOI identifies this **limited demonstration**, not a deposit of all G8
+materials or a numerical reproduction of the paper.
 `LICENSE` records the current no-license-granted status pending approval;
 permission to redistribute has not been inferred from the manuscript.
 Version 0.1.0 and its publication status are described in `CHANGELOG.md`.
