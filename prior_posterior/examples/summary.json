@@ -1,0 +1,40 @@
+{
+  "mode": "public_demo",
+  "seed": 20261016,
+  "sigma": 0.15,
+  "evaluation_year": 2016,
+  "training_years": [
+    2001,
+    2015
+  ],
+  "mean_prior_rps": 0.15674603680738183,
+  "mean_posterior_rps": 0.03052005354995701,
+  "mean_kl_information_gain": 0.6471014055886444,
+  "low_state_auc": 0.9555555555555556,
+  "first_dekad": {
+    "year": 2016,
+    "dekad": 1,
+    "actual_1e8m3": 0.4377693904221838,
+    "pseudo_forecast_1e8m3": 0.4245525059603295,
+    "observed_state": 1,
+    "previous_state": 3,
+    "prior": [
+      0.15392068625650826,
+      0.2479128574532606,
+      0.15392068625650826,
+      0.2479128574532606,
+      0.1963329125804623
+    ],
+    "posterior": [
+      0.8557789414778635,
+      0.14114215516245793,
+      0.003057689037209036,
+      2.1209745651483107e-05,
+      4.576818066685949e-09
+    ],
+    "prior_rps": 0.32738855783266346,
+    "posterior_rps": 0.0052022984542978165,
+    "kl_information_gain": 1.3764647667532819
+  },
+  "note": "Synthetic pseudo-hindcasts are freshly generated; no archived study forecasts are included."
+}
