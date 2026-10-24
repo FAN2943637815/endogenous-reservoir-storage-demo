@@ -1,0 +1,47 @@
+{
+  "mode": "public_demo",
+  "description": "Prescribed toy probability input and two-stage finite-grid search",
+  "reservoir": {
+    "dead_storage": 1.0
+  },
+  "stage": {
+    "demand": 1.25,
+    "loss": 0.05,
+    "upper_storage": 10.0,
+    "critical_storage": 3.0
+  },
+  "scenario_inflows_1e8m3": [
+    0.65,
+    1.1,
+    1.6
+  ],
+  "probabilities": [
+    0.25,
+    0.5,
+    0.25
+  ],
+  "risk_thresholds": {
+    "expected_shortage": 0.4,
+    "critical_probability": 0.45,
+    "cvar": 0.7
+  },
+  "metrics": {
+    "total_shortage_1e8m3": 0.0,
+    "supply_reliability": 1.0,
+    "critical_storage_hit_frequency": 0.0,
+    "fallback_stage_fraction": 0.0,
+    "total_spill_1e8m3": 0.0,
+    "final_storage_1e8m3": 4.470000000000001
+  },
+  "first_decision": {
+    "period": 1,
+    "chosen_target_1e8m3": 5.0,
+    "objective": 213.83069444444442,
+    "expected_shortage_ratio": 0.0,
+    "critical_probability": 0,
+    "cvar_shortage_ratio": 0.0,
+    "risk_feasible": true,
+    "used_fallback": false,
+    "n_candidates": 10
+  }
+}
