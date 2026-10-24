@@ -5,7 +5,7 @@ end-of-period storage decisions for 10-day reservoir drought operation under
 forecast uncertainty”** (Shuncai Zhang et al., manuscript under revision).
 The study examines how a forecast-updated inflow distribution changes the
 risk-feasible set of end-of-dekad storage targets before a rolling optimization
-selects one. This repository is a **local draft for public review**. It does not
+selects one. This repository is a **public methodological demonstration**. It does not
 reproduce the reported case-study experiments.
 
 ## What is available
@@ -47,7 +47,7 @@ are not included here.
 | `figure_data/` | Limited, study-derived numerical coordinates for Fig. 3(e); see its [scope note](figure_data/README.md) |
 | `docs/figure_data_inventory.md` | Current manuscript figure source-data deposit status |
 | `docs/doi_release_checklist.md` | Rights, archive and DOI preparation gates |
-| `docs/final_audit.md` | 22 October local evidence, tests and unresolved G8 items |
+| `docs/final_audit.md` | Source review, tests, public deposit status and unresolved G8 items |
 
 ## Environment and execution
 
@@ -110,15 +110,16 @@ risk screening, and integrated replay.
 No observed inflow, reservoir-operation data, archived pseudo-hindcasts,
 or generated research scenarios are included. The limited
 [Fig. 3(e) aggregate](figure_data/README.md) is the only manuscript-derived
-figure dataset in this local draft. It supplies two aggregate series for one panel, not the
+figure dataset in this public repository. It supplies two aggregate series for one panel, not the
 other panels or the numerical results of the paper. The manuscript currently
 says restricted historical data and derived supporting data may be requested
-from the corresponding author. This draft does not claim a public deposit or
-full G8 compliance; see [reproducibility status](docs/reproducibility.md).
+from the corresponding author. This public deposit does not claim full G8
+compliance; see [reproducibility status](docs/reproducibility.md).
 
 `CITATION.cff` records the manuscript title and author names from the current
 manuscript. Repository software authorship requires confirmation. No paper
-DOI, repository DOI, GitHub release, Zenodo archive or public URL is asserted.
+DOI, repository DOI, GitHub release or Zenodo archive is asserted. The public
+repository is <https://github.com/FAN2943637815/endogenous-reservoir-storage-demo>.
 `LICENSE` records the current no-license-granted status pending approval;
 permission to redistribute has not been inferred from the manuscript.
-Version 0.1.0 is a local draft described in `CHANGELOG.md`.
+Version 0.1.0 and its publication status are described in `CHANGELOG.md`.
