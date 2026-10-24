@@ -1,6 +1,6 @@
 # Manuscript figure-data inventory for reviewer G8
 
-This inventory describes **numerical files in this local repository**.
+This inventory describes **numerical files in this public repository**.
 It does not expose internal plotting-program names, file paths,
 engineering inputs, observed inflows, or reservoir-operation records.
 
@@ -28,7 +28,7 @@ study scenarios, or the original research code.
 
 No numerical table-source files are deposited. The manuscript's Data
 availability paragraph says derived supporting material may be
-requested from the corresponding author; this local draft does not
-turn that statement into a claim of public deposit. Every further
+requested from the corresponding author; this limited public deposit does not
+make those other files public. Every further
 figure or table file needs an individual rights and disclosure review.
 G8's requested figure-data deposit remains **partially addressed**.

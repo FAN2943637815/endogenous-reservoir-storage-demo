@@ -8,7 +8,7 @@ historical-prior Python project, the original Java reservoir system, or
 the research runoff generators was copied. No observed input,
 reservoir characteristic table, archived pseudo-hindcast, study-generated
 scenario is shipped. The only study-derived numerical material in this
-local draft is the limited Fig. 3(e) aggregate in `figure_data/`; it does
+public repository is the limited Fig. 3(e) aggregate in `figure_data/`; it does
 not expose engineering inputs or case-level records.
 
 | Component | Formal research function | Public implementation | Main difference |

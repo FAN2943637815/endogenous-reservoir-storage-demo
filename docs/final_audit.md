@@ -15,7 +15,9 @@ files were not copied or executed.
 Only this `gitHub` directory was edited. Public code here consists of
 newly written standard-library demonstrations and synthetic inputs. The
 only study-derived numeric file in the prospective Git inclusion list is
-the limited Fig. 3(e) aggregate. No research source, original study data,
+the limited Fig. 3(e) aggregate. The reviewed 55-file tree is now public at
+<https://github.com/FAN2943637815/endogenous-reservoir-storage-demo>.
+No research source, original study data,
 engineering input, case-level record, internal name, or private path is
 included. `.private_review/` and `outputs/` are Git-ignored.
 
@@ -27,15 +29,15 @@ included. `.private_review/` and `outputs/` are Git-ignored.
 | Optimization code | **Partly addressed** | `reservoir_operation/` has executable toy water balance, current-plus-next-dekad path risk, three thresholds, two-stage risk-screened finite-grid Bellman search and fallback. The original Java solver, engineering curves and experiment settings are withheld. |
 | Actual pseudo-hindcast series | **Not met** | The public generator creates a fresh seeded series from synthetic inflows. The archived study series and provenance are absent. |
 | Actual generated scenarios | **Not met** | The public AR example is not the accepted 200-year Historical-like or Extreme-dry scenario set. Neither study scenario series is present. |
-| Numerical data behind figures | **Partly addressed locally** | The [Fig. 3(e) CSV](../figure_data/fig3e_dekad_summary.csv) gives 36 calendar-dekad x positions and two dimensionless mean series from the inspected aggregation calculation. The exact source version for the submitted image has not been established. All other quantitative figure panels and tables lack numerical source files; see [figure inventory](figure_data_inventory.md). |
-| Public archive with DOI | **Not met** | No commit, Git remote, release, public archive or DOI exists. `CITATION.cff`, `CHANGELOG.md` and the [DOI checklist](doi_release_checklist.md) are preparation only. |
+| Numerical data behind figures | **Partly addressed publicly** | The [Fig. 3(e) CSV](../figure_data/fig3e_dekad_summary.csv) gives 36 calendar-dekad x positions and two dimensionless mean series from the inspected aggregation calculation. The exact source version for the submitted image has not been established. All other quantitative figure panels and tables lack numerical source files; see [figure inventory](figure_data_inventory.md). |
+| Public archive with DOI | **Not met** | The public GitHub repository exists, but no versioned Zenodo archive or assigned DOI has been verified. See the [DOI checklist](doi_release_checklist.md). |
 | Full manuscript numerical reproduction | **Not possible from this repository** | Restricted observations and reservoir-operation inputs, research code/configurations and the derived materials above are missing. |
 
 The manuscript currently says derived supporting material and code are
 available from the corresponding author on reasonable request. That
 statement does not satisfy G8's public-deposit request. Under the user's
 current restrictions, the actual pseudo-hindcasts, study scenarios,
-remaining figure/table numbers and core optimization code cannot be added. This draft must not
+remaining figure/table numbers and core optimization code cannot be added. This repository must not
 be described to the reviewer as fully meeting G8.
 
 ## Three independent public projects
@@ -97,8 +99,9 @@ demonstration outputs only. The `--mode research` command exited with
 the intended explicit missing-input/solver error before producing a
 research result.
 
-A Git prospective-inclusion check found 55 files: public source,
+A Git inclusion check found 55 published files: public source,
 tests, documentation, citation/license metadata, synthetic
 examples, and the limited Fig. 3(e) aggregate. It found no Java/JAR, workbook, TeX/BIB or private-key file,
-local absolute path or author email in that list. This check covers the local Git content, not a published repository. No
-remote, upload, release, license grant or DOI registration occurred.
+local absolute path or author email in that list. GitHub uploads were verified
+by directory and commit on 24 October 2026. No versioned release, license grant
+or DOI registration has yet been verified.

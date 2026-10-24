@@ -1,10 +1,11 @@
 # DOI archive preparation — no DOI assigned
 
-This file prepares a possible future public release; it does not claim that
-a GitHub repository, release, Zenodo record or DOI already exists. The
-current repository is a local release candidate; no public release or DOI exists yet.
+The reviewed repository is public at
+<https://github.com/FAN2943637815/endogenous-reservoir-storage-demo>.
+This file tracks the remaining requirements for a citable version archive.
+No Zenodo record or DOI has yet been verified.
 
-## Required before any public archive
+## Required before a citable version archive
 
 1. Confirm the software authors and their order in `CITATION.cff`.
    The manuscript author list alone does not establish software authorship.
@@ -25,7 +26,7 @@ current repository is a local release candidate; no public release or DOI exists
 6. Run the documented demos and tests on the candidate release commit,
    record Python version and output checksums, and check the archive
    contents for restricted files.
-7. After authorization, create a versioned GitHub release and connect
+7. Create a versioned GitHub release and connect
    the **approved** public repository to a DOI archive service. Copy the
    DOI assigned by that service into `CITATION.cff`, the README and the
    manuscript/reviewer response. Never invent or pre-fill one.
@@ -34,11 +35,12 @@ current repository is a local release candidate; no public release or DOI exists
 
 | Gate | Status |
 | --- | --- |
-| Public demonstration code and documentation | Prepared locally |
+| Public demonstration code and documentation | 55 files published to GitHub |
 | Tests on current draft | See [audit record](final_audit.md) |
 | Rights-approved license and software authorship | Pending |
-| Locally included study-derived material | Fig. 3(e) 36-point aggregate only; public release still requires rights review |
-| GitHub release and public URL | Not created |
+| Publicly included study-derived material | Fig. 3(e) 36-point aggregate only; exact submitted-image version unverified |
+| GitHub repository and public URL | Created; link above |
+| Versioned GitHub release | Not yet verified |
 | DOI | Not assigned |
 | Exact manuscript result reproduction | Not supported by public materials |
 
