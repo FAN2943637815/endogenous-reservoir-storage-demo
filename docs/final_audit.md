@@ -30,7 +30,7 @@ included. `.private_review/` and `outputs/` are Git-ignored.
 | Actual pseudo-hindcast series | **Not met** | The public generator creates a fresh seeded series from synthetic inflows. The archived study series and provenance are absent. |
 | Actual generated scenarios | **Not met** | The public AR example is not the accepted 200-year Historical-like or Extreme-dry scenario set. Neither study scenario series is present. |
 | Numerical data behind figures | **Partly addressed publicly** | The [Fig. 3(e) CSV](../figure_data/fig3e_dekad_summary.csv) gives 36 calendar-dekad x positions and two dimensionless mean series from the inspected aggregation calculation. The exact source version for the submitted image has not been established. All other quantitative figure panels and tables lack numerical source files; see [figure inventory](figure_data_inventory.md). |
-| Public archive with DOI | **Not met** | The public GitHub repository exists, but no versioned Zenodo archive or assigned DOI has been verified. See the [DOI checklist](doi_release_checklist.md). |
+| Public archive with DOI | **Met for this limited demonstration** | GitHub release `v0.1.0` at commit `6c8e202` was archived as [Zenodo DOI 10.5281/zenodo.23614749](https://doi.org/10.5281/zenodo.23614749). The archive contains 55 files; this does not fill the missing G8 research materials. |
 | Full manuscript numerical reproduction | **Not possible from this repository** | Restricted observations and reservoir-operation inputs, research code/configurations and the derived materials above are missing. |
 
 The manuscript currently says derived supporting material and code are
@@ -103,5 +103,8 @@ A Git inclusion check found 55 published files: public source,
 tests, documentation, citation/license metadata, synthetic
 examples, and the limited Fig. 3(e) aggregate. It found no Java/JAR, workbook, TeX/BIB or private-key file,
 local absolute path or author email in that list. GitHub uploads were verified
-by directory and commit on 24 October 2026. No versioned release, license grant
-or DOI registration has yet been verified.
+by directory and commit on 24 October 2026. The `v0.1.0` release and Zenodo
+record were verified by their public pages and the archive's 55-file preview.
+Zenodo's automatic CC BY 4.0 metadata was corrected to match the repository's
+all-rights-reserved statement; no reuse license was granted. The nine software
+authors and their order were confirmed by the repository owner.
