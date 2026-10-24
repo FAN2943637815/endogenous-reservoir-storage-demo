@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61,<80"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reservoir-drought-public-demo"
+version = "0.1.0"
+description = "Synthetic computational demonstrations for forecast-informed reservoir drought operation"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools]
+packages = ["synthetic_inflow", "prior_posterior", "reservoir_operation", "workflows"]
