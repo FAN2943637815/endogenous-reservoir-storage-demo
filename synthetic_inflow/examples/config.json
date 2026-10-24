@@ -1,0 +1,10 @@
+{
+  "start_year": 2001,
+  "years": 3,
+  "seed": 7,
+  "mean_flow_cms": 120.0,
+  "seasonal_log_amplitude": 0.32,
+  "ar_coefficient": 0.70,
+  "innovation_std": 0.30,
+  "log_offset_cms": 1.0
+}
